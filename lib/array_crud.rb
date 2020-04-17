@@ -12,14 +12,27 @@ end
 
 def add_element_to_start_of_array(array, element)
   array.unshift(element)
+<<<<<<< HEAD
+=======
+ 
+  puts array.inspect
+>>>>>>> e15d0d183a58ff069c7b6e66ba536fcf172595b3
 end
 
 def remove_element_from_end_of_array(array)
   array.pop
+<<<<<<< HEAD
+=======
+  puts array.inspect
+>>>>>>> e15d0d183a58ff069c7b6e66ba536fcf172595b3
 end
 
 def remove_element_from_start_of_array(array)
   array.shift 
+<<<<<<< HEAD
+=======
+  puts array.inspect
+>>>>>>> e15d0d183a58ff069c7b6e66ba536fcf172595b3
 end
 
 def retrieve_element_from_index(array, index_number)
